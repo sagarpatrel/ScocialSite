@@ -1,2 +1,1 @@
-release: python manage.py migrate
-web: gunicorn social_book.wsgi
+web: gunicorn social_book.wsgi --logo-file -
